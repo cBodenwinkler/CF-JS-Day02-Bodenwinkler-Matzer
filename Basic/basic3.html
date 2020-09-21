@@ -5,6 +5,9 @@
 		<meta charset="utf-8">
 	</head>
 	<body>
+		<header>
+
+		</header>
 		
 
 
@@ -16,15 +19,21 @@
 		<script>
 			var cold = "The weather is cold";
 			var moderate = "The weather is moderate";
+			var hot = "The weather is hot";
 
-			var myNumber = Math.round(Math.random() * 26);
+			var myNumber = Math.round(Math.random() * 50);
 
 			var secNumber = Math.random();
 
 			if (myNumber <= 10) {
 				document.write(cold);
+				document.write('<img src="img/cold.jpg" width="200px">');
+			} else if (myNumber >= 32) {
+				document.write(hot);
+				document.write('<img src="img/hot.jpg" width="200px">');
 			} else {
 				document.write(moderate);
+				document.write('<img src="img/moderate.jpg" width="200px">');
 			}
 
 
@@ -35,7 +44,7 @@
 				myNumber *= 1;
 			}
 
-			document.write(myNumber);
+
 		</script>
 	</body>
 </html>
