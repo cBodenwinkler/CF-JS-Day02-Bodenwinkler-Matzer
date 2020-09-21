@@ -79,6 +79,7 @@ while (input != 0) {
     let roundHundret = Math.floor(hundret);
     hundretNote = hundretNote - roundHundret;
     input = input % 100;
+    // for (i = roundHundret; (i = 1 || hundretNote > 0); i--)
     console.log("you get " + roundHundret + " hundret euro notes");
   } else if (input >= 50 && fiftyNote) {
     let fifty = input / 50;
