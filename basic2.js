@@ -1,5 +1,3 @@
-"use strict";
-
 let number = [1, 7, 10, 9, 55];
 
 let arrLen = number.length;

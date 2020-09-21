@@ -2,7 +2,8 @@
 
 // ---------- ATM Input ----------
 
-let input = 880;
+let input = prompt("Please enter amount");
+// let input = 880;
 
 // ---------- Storage Banknotes + Stop Switch ----------
 // ---------- Change Numbers To Fill Up! ---------
