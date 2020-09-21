@@ -4,10 +4,10 @@
 
 let input = prompt("Please enter amount");
 if (input % 10 != 0) {
-  prompt("please enter a amount that can be devided by ten");
+  while (input % 10 != 0) {
+    input = prompt("please enter a amount that can be devided by ten");
+  }
 }
-
-// let input = 880;
 
 // ---------- Storage Banknotes + Stop Switch ----------
 // ---------- Change Numbers To Fill Up! ---------
