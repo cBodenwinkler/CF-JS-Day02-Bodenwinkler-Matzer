@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Basic 1</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+
+
+
+		<script>
+			var cold = "The weather is cold";
+			var moderate = "The weather is moderate";
+
+			var myNumber = Math.round(Math.random() * 26);
+
+			var secNumber = Math.random();
+
+			if (myNumber <= 10) {
+				document.write(cold);
+			} else {
+				document.write(moderate);
+			}
+
+
+
+			if (secNumber < 0.5 && myNumber <= 5) {
+				myNumber *= -1;
+			} else {
+				myNumber *= 1;
+			}
+
+			document.write(myNumber);
+
+
+
+
+
+
+
+		</script>
+	</body>
+</html>
